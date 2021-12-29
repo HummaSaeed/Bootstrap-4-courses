@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-4-courses",
+  "version": "1.0.0",
+  "description": "Bootstrap course",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HummaSaeed/Bootstrap-4-courses.git"
+  },
+  "author": "Humma Saeed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HummaSaeed/Bootstrap-4-courses/issues"
+  },
+  "homepage": "https://github.com/HummaSaeed/Bootstrap-4-courses#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
