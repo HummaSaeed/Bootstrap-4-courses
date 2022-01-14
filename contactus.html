@@ -80,10 +80,10 @@
             </div>
             <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" role="group">
-                  <a role="button" class="btn btn-primary"><i class="fa fa-phone" href="tel: +923460537421"></i>  Call</a>
-                  <a role="button" class="btn btn-info"><i class="fa fa-skype" href=""></i>  Skype</a>
-                  <a role="button" class="btn btn-success"><i class="fa fa-envelope" href="mailto:hummasaeed786@gmail.com"></i>  Email</a>
-                  <a role="button" class="btn btn-danger"><i class="fa fa-whatsapp" href="https://wa.me/+923460537421"></i>  Whatsapp</a>
+                  <a href="tel:+85212345678" class="btn btn-primary" role="button"><i class="fa fa-phone"></i>  Call</a>
+                  <a href="" class="btn btn-info" role="button"><i class="fa fa-skype" ></i>  Skype</a>
+                  <a href="mailto:hummasaeed786@gmail.com" class="btn btn-success" role="button" ><i class="fa fa-envelope" ></i>  Email</a>
+                  <a href="https://wa.me/+923460537421" role="button" class="btn btn-danger"><i class="fa fa-whatsapp" ></i>  Whatsapp</a>
                 </div>
             </div>
         </div>
@@ -93,7 +93,65 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                Form goes here
+                <form>
+                  <div class="form-group row">
+                    <label for="firstname" class="col-md-2 col-form-label"> First Name</label>
+                    <div class="col-md-10">
+                      <input type="text" class="form-control" id="firstname" name="First Name" placeholder="First Name"/>
+                    </div>
+                  </div>
+                </br>
+                  <div class="form-group row">
+                    <label for="lastname" class="col-md-2 col-form-label"> Last Name</label>
+                    <div class="col-md-10">
+                      <input type="text" class="form-control" id="lastname" name="Last Name" placeholder="Last Name"/>
+                    </div>
+                  </div>
+                  <br/>
+                  <div class="form-group row">
+                    <label for="telno" class=" col-md-2 col-form-label">Contact Telno. </label>
+                    <div class="col-5 col-md-3">
+                      <input type="tel" class="form-control" id="areacode" name="Area Code" placeholder="Area Code"/>
+                    </div>
+                    <div class="col-7 col-md-7">
+                      <input type="tel" class="form-control" id="telno" name="tel" placeholder="Phone Number"/>
+                    </div>
+                  </div>
+                </br>
+                  <div class="form-group row">
+                    <label for="emailid" class="col-md-2 col-form-label"> Email</label>
+                    <div class="col-md-10">
+                      <input type="email" class="form-control" id="emailid" name="Last Name" placeholder="Email"/>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-sm-6 offset-md-2">
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="approve" id="approve"/>
+                        <label class="form-check-label" for="approve">
+                          <strong>May we Contact you?</strong>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                    <select class="form-contro">
+                      <option selected>Tel.</option>
+                      <option value="1">Email</option>
+                    </select>
+                  </div>
+                  <div class="form-group row">
+                    <label for="feedback" class="col-md-2 col-form-label">Your FeedBack</label>
+                    <div class="col-md-10">
+                      <textarea class="form-control" id="feedback" name="FeedBack" rows="12"></textarea>
+                    </div>
+                  </div>
+                  <br />
+                    <div class="form-group row">
+                      <div class="offset-md-2 col-md-10">
+                        <button class="btn btn-primary">Send FeedBack</button>
+                      </div>
+                  </div>
+                </form>
             </div>
              <div class="col-12 col-md">
             </div>
